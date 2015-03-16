@@ -62,3 +62,24 @@ body {
 	left: 520px;
 	z-index: 10;
 }
+
+.text-one, .text-two {
+	color: black;
+	font-size: 2em;
+	max-width: 150px;
+	float: left;
+	display: inline-block;
+}
+
+.text-one {
+	position: relative;
+	left: 500px;
+	bottom: 350px;
+}
+
+.text-two {
+	position: relative;
+	left: 600px;
+	bottom: 250px;
+	text-align: right;
+}
